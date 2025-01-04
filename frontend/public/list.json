@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "name": "book_1",
+      "title": "The Great Adventure",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid"
+    },
+    {
+      "id": 2,
+      "name": "book_2",
+      "title": "Learn JavaScript",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid"
+    },
+    {
+      "id": 3,
+      "name": "book_3",
+      "title": "The Mystery of the Lost City",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid"
+    },
+    {
+      "id": 4,
+      "name": "book_4",
+      "title": "Mastering Python",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid"
+    },
+    {
+      "id": 5,
+      "name": "book_5",
+      "title": "The Art of Cooking",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid"
+    },
+    {
+      "id": 6,
+      "name": "book_6",
+      "title": "Philosophy 101",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid"
+    },
+    {
+      "id": 7,
+      "name": "book_7",
+      "title": "The Magic of Coding",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid"
+    },
+    {
+      "id": 8,
+      "name": "book_8",
+      "title": "The Science of Mind",
+      "price": 18.75,
+      "category": "Self-Help",
+      "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid"
+    },
+    {
+      "id": 9,
+      "name": "book_9",
+      "title": "Space Exploration",
+      "price": 29.99,
+      "category": "Science",
+      "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid"
+    },
+    {
+      "id": 10,
+      "name": "book_10",
+      "title": "Understanding Artificial Intelligence",
+      "price": 22.50,
+      "category": "Technology",
+      "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid"
+    }
+  ]
+  
