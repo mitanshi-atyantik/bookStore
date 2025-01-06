@@ -6,6 +6,7 @@ import Freebook from './components/Freebook'
 import Navbar from './components/Navbar'
 import Home from './Home/Home'
 import Courses from './Course/Courses'
+import Signup from './components/Signup'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/course" element={<Courses/>} />
+          <Route path="/signup" element={<Signup/>} />
         </Routes>
        </div>
         <Footer />
