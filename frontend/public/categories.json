@@ -1,0 +1,390 @@
+[
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "category": "Fiction",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A novel about the experiences of a young man named Holden Caulfield as he struggles with the pain of growing up."
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "category": "Fiction",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A novel that explores racism and injustice in the American South through the perspective of a young girl named Scout Finch."
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "category": "Fiction",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A story about Jay Gatsby's pursuit of wealth and love during the Roaring Twenties, set against a backdrop of decadence."
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "category": "Fiction",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A dystopian novel set in a totalitarian society controlled by Big Brother, a government that watches every move."
+  },
+  {
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "category": "Fiction",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A whaling voyage led by Captain Ahab, whose obsessive quest for revenge against the white whale Moby Dick takes a tragic turn."
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "category": "Fiction",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A classic romance novel that explores the complexities of marriage and society in early 19th century England."
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "category": "Fiction",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A classic fantasy novel following the journey of Bilbo Baggins, a hobbit who joins a group of dwarves on an adventure to reclaim treasure."
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "author": "J.R.R. Tolkien",
+    "category": "Fiction",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "The first book in the Lord of the Rings trilogy, where Frodo Baggins embarks on a perilous journey to destroy the One Ring."
+  },
+  {
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "category": "Fiction",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A tragic novel that examines the complexities of love, marriage, and Russian society in the late 19th century."
+  },
+  {
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "category": "Fiction",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A sweeping epic set during the Napoleonic wars that follows several aristocratic families as they navigate love, war, and fate."
+  },
+
+  {
+    "title": "The Shining",
+    "author": "Stephen King",
+    "category": "Fiction",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A horror novel about a family that moves to a remote hotel, where the father succumbs to supernatural forces and begins to unravel."
+  },
+  {
+    "title": "The Girl on the Train",
+    "author": "Paula Hawkins",
+    "category": "Thriller",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A psychological thriller where the protagonist becomes entangled in a missing person's investigation after witnessing suspicious events from her train window."
+  },
+  {
+    "title": "Gone Girl",
+    "author": "Gillian Flynn",
+    "category": "Thriller",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A psychological thriller about the disappearance of a woman and the unraveling secrets in her marriage that follow."
+  },
+  {
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "category": "Thriller",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A psychological thriller about a woman who shoots her husband and then becomes mute, and the psychotherapist who tries to uncover the truth."
+  },
+  {
+    "title": "Big Little Lies",
+    "author": "Liane Moriarty",
+    "category": "Thriller",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A dark comedy thriller about three women whose lives unravel through secrets, lies, and murder in a tight-knit community."
+  },
+  {
+    "title": "Sharp Objects",
+    "author": "Gillian Flynn",
+    "category": "Thriller",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A psychological thriller about a reporter who returns to her hometown to cover a series of brutal murders while confronting her troubled past."
+  },
+  {
+    "title": "The Woman in the Window",
+    "author": "A.J. Finn",
+    "category": "Thriller",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A psychological thriller about an agoraphobic woman who spies on her neighbors and thinks she witnesses a crime."
+  },
+  {
+    "title": "Before I Go to Sleep",
+    "author": "S.J. Watson",
+    "category": "Thriller",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A woman suffers from amnesia and wakes up every day with no memory of the previous day, but soon uncovers disturbing secrets."
+  },
+  {
+    "title": "The Couple Next Door",
+    "author": "Shari Lapena",
+    "category": "Thriller",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A suspenseful mystery about a young couple whose baby goes missing while they attend a party next door, leading to an investigation into their own lives."
+  },
+
+  {
+    "title": "Educated",
+    "author": "Tara Westover",
+    "category": "Biography",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A memoir of a woman who grows up in a strict, survivalist family and eventually escapes to pursue an education."
+  },
+  {
+    "title": "Becoming",
+    "author": "Michelle Obama",
+    "category": "Biography",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "The memoir of the former First Lady of the United States, reflecting on her personal journey and experiences."
+  },
+  {
+    "title": "Steve Jobs",
+    "author": "Walter Isaacson",
+    "category": "Biography",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A biography of the innovative Apple co-founder, exploring his complex personality, career, and lasting impact on technology."
+  },
+  {
+    "title": "The Diary of a Young Girl",
+    "author": "Anne Frank",
+    "category": "Biography",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "The poignant diary of Anne Frank, a Jewish girl who went into hiding during the Nazi occupation of the Netherlands."
+  },
+  {
+    "title": "Long Hard Road",
+    "author": "Ted Lasso",
+    "category": "Biography",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A memoir detailing Ted's personal journey and leadership style, following the development of his iconic coaching techniques."
+  },
+  {
+    "title": "Alexander Hamilton",
+    "author": "Ron Chernow",
+    "category": "Biography",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A detailed biography of one of America's Founding Fathers, exploring his role in shaping the financial system and the nation's early years."
+  },
+  {
+    "title": "The Power of Now",
+    "author": "Eckhart Tolle",
+    "category": "Self-help",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A guide to spiritual enlightenment that encourages readers to live in the present moment."
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "category": "Self-help",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A book that provides strategies for forming good habits and breaking bad ones, focusing on incremental changes."
+  },
+  {
+    "title": "The Subtle Art of Not Giving a F*ck",
+    "author": "Mark Manson",
+    "category": "Self-help",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A counterintuitive approach to living a good life, emphasizing the importance of embracing life's struggles."
+  },
+  {
+    "title": "You Are a Badass",
+    "author": "Jen Sincero",
+    "category": "Self-help",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A motivational guide to becoming the best version of yourself and achieving your goals."
+  },
+  {
+    "title": "The Four Agreements",
+    "author": "Don Miguel Ruiz",
+    "category": "Self-help",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A guide to personal freedom based on four agreements that can change your life."
+  },
+  {
+    "title": "Think Like a Monk",
+    "author": "Jay Shetty",
+    "category": "Self-help",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A practical guide to training your mind and finding peace through ancient wisdom."
+  },
+  {
+    "title": "Dare to Lead",
+    "author": "Brené Brown",
+    "category": "Self-help",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A book about leadership through courage, vulnerability, and trust-building."
+  },
+  {
+    "title": "Grit",
+    "author": "Angela Duckworth",
+    "category": "Self-help",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A guide to developing perseverance and passion for long-term goals."
+  },
+  {
+    "title": "The Miracle Morning",
+    "author": "Hal Elrod",
+    "category": "Self-help",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A book that offers a step-by-step routine for improving your life by waking up early and incorporating six key practices."
+  },
+  {
+    "title": "The Happiness Project",
+    "author": "Gretchen Rubin",
+    "category": "Self-help",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A year-long experiment in seeking happiness and discovering what truly matters in life."
+  },
+  {
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "category": "Science",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A book exploring cosmology, space, time, and the nature of the universe."
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "category": "Science",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A compelling history of the human species, tracing our evolution from ancient times to the present."
+  },
+  {
+    "title": "Cosmos",
+    "author": "Carl Sagan",
+    "category": "Science",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A popular science book that explores the universe, our place in it, and the history of scientific discovery."
+  },
+  {
+    "title": "The Gene: An Intimate History",
+    "author": "Siddhartha Mukherjee",
+    "category": "Science",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A history of the gene, from its discovery to its influence on human identity and future medical advances."
+  },
+  {
+    "title": "The Selfish Gene",
+    "author": "Richard Dawkins",
+    "category": "Science",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A book that explains evolutionary biology from the perspective of gene-centered evolution."
+  },
+  {
+    "title": "Astrophysics for People in a Hurry",
+    "author": "Neil deGrasse Tyson",
+    "category": "Science",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A concise and accessible guide to understanding the cosmos and the nature of the universe."
+  },
+  {
+    "title": "The Immortal Life of Henrietta Lacks",
+    "author": "Rebecca Skloot",
+    "category": "Science",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "The true story of Henrietta Lacks, whose cells were used for medical research without her knowledge, changing the course of science."
+  },
+  {
+    "title": "The Body: A Guide for Occupants",
+    "author": "Bill Bryson",
+    "category": "Science",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A detailed exploration of the human body, explaining how it works and the many fascinating aspects of human physiology."
+  },
+  {
+    "title": "Why We Sleep",
+    "author": "Matthew Walker",
+    "category": "Science",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A groundbreaking book on the science of sleep and how it impacts our health and lives."
+  },
+  {
+    "title": "The Emperor of All Maladies",
+    "author": "Siddhartha Mukherjee",
+    "category": "Science",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A biography of cancer, detailing its history, research, and personal stories from those affected by the disease."
+  },
+
+  {
+    "title": "The 4-Hour Body",
+    "author": "Tim Ferriss",
+    "category": "Health & Wellness",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A comprehensive guide on improving your health, fitness, and body composition with minimal effort and maximum results."
+  },
+  {
+    "title": "How Not to Die",
+    "author": "Michael Greger",
+    "category": "Health & Wellness",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A guide to preventing and reversing chronic diseases through a plant-based diet and lifestyle changes."
+  },
+  {
+    "title": "The Healing Power of Water",
+    "author": "Masaru Emoto",
+    "category": "Health & Wellness",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "An exploration of how water can impact our health, emotions, and overall well-being."
+  },
+  {
+    "title": "Why Diets Fail",
+    "author": "Dr. David A. Kessler",
+    "category": "Health & Wellness",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A scientific look at why dieting is ineffective and the impact of food on our brain and health."
+  },
+  {
+    "title": "The Longevity Diet",
+    "author": "Valter Longo",
+    "category": "Health & Wellness",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A revolutionary approach to health and wellness that focuses on how to live a longer, healthier life."
+  },
+  {
+    "title": "The Clean Plate",
+    "author": "Toby Amidor",
+    "category": "Health & Wellness",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A book about nutrition and healthy eating habits, offering delicious and nutritious recipes for a balanced lifestyle."
+  },
+  {
+    "title": "The New Rules of Lifting",
+    "author": "Lou Schuler",
+    "category": "Health & Wellness",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A book offering strength training techniques that are safe, effective, and simple for achieving a lean and fit physique."
+  },
+  {
+    "title": "Breath: The New Science of a Lost Art",
+    "author": "James Nestor",
+    "category": "Health & Wellness",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A book that explores the ancient art of breathing, examining how it affects our health and wellness."
+  },
+  {
+    "title": "Intuitive Eating",
+    "author": "Evelyn Tribole & Elyse Resch",
+    "category": "Health & Wellness",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "A guide to listening to your body's natural hunger cues and building a healthier relationship with food."
+  },
+  {
+    "title": "The Mind-Gut Connection",
+    "author": "Emeran Mayer",
+    "category": "Health & Wellness",
+    "image": "https://img.freepik.com/free-psd/books-stack-icon-isolated-3d-render-illustration_47987-15482.jpg?ga=GA1.1.785052345.1735983466&semt=ais_hybrid",
+    "description": "Explores the connection between the gut and brain health, and how diet impacts mental health."
+  }
+]

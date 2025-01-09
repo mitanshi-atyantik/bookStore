@@ -7,3 +7,21 @@
 body{
     font-family: "Josefin Sans", serif;
 }
+
+.category-card {
+    margin: 10px;
+  }
+  
+  .category-button {
+    background-color: #f472b6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: capitalize;
+  }
+  
+  .category-button:hover {
+    background-color: #d61b8e;
+  }
+  

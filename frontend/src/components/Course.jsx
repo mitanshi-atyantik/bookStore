@@ -1,22 +1,36 @@
 import React, { useEffect, useState } from "react";
 import Cards from "./Cards";
-// import axios from "axios";
+import axios from "axios";
 import list from '../../public/list.json'
 import { Link } from "react-router-dom";
 function Course() {
-//   const [book, setBook] = useState([]);
-//   useEffect(() => {
-//     const getBook = async () => {
-//       try {
-//         const res = await axios.get("http://localhost:4001/book");
-//         console.log(res.data);
-//         setBook(res.data);
-//       } catch (error) {
-//         console.log(error);
-//       }
-//     };
-//     getBook();
-//   }, []);
+  const [book, setBook] = useState([]);
+  const [categories, setCategories] = useState([]);
+  // useEffect(() => {
+  //   const getBook = async () => {
+  //     try {
+  //       const res = await axios.get("http://localhost:4001/book");
+  //       console.log(res.data);
+  //       setBook(res.data);
+  //     } catch (error) {
+  //       console.log(error);
+  //     }
+  //   };
+  //   getBook();
+  // }, []);
+
+  useEffect(() => {
+    const getCategories = async () => {
+      try {
+        const res = await axios.get("http://localhost:4001/categories");
+        setCategories(res.data);
+        console.log("data of categories:", res.data)
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    getCategories();
+  }, []);
 
   return (
     <>
@@ -41,9 +55,21 @@ function Course() {
             </button>
           </Link>
         </div>
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-3">
-          {list.map((item) => (
+        {/* <div className="mt-12 grid grid-cols-1 md:grid-cols-3">
+          {book.map((item) => (
             <Cards key={item.id} item={item} />
+          ))}
+        </div> */}
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-3">
+
+         {categories.map((category, index) => (
+            <div key={index} className="category-card">
+              <Link to={`/category/${category}`}>
+                <button className="category-button">
+                  {category}
+                </button>
+              </Link>
+            </div>
           ))}
         </div>
       </div>
