@@ -10,6 +10,7 @@ import Signup from './components/Signup'
 import { Toaster } from 'react-hot-toast'
 import { useAuth } from './context/AuthProvider'
 import CategoryPage from './components/CategoryPage'
+import ContactPage from './Contact/Contact'
 
 function App() {
   const [authUser, setAuthUser] = useAuth();
@@ -23,6 +24,7 @@ function App() {
             <Route path="/course" element={authUser ? <Courses /> : <Signup courses={true}/>} />
             <Route path="/signup" element={<Signup courses={false}/>} />
             <Route path="/category/:category" element={<CategoryPage />} />
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
           <Toaster />
         </div>

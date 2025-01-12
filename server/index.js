@@ -4,6 +4,7 @@ import mongoose from "mongoose";
 import bookRoute from './routes/book-route.js'
 import userRoute from './routes/user-route.js'
 import categoryRoute from './routes/category-route.js'
+import contactRoute from './routes/contact-route.js'
 import cors from 'cors'
 const app = express()
 app.use(cors());
@@ -25,6 +26,7 @@ try {
 app.use('/book', bookRoute)
 app.use("/user", userRoute);
 app.use("/", categoryRoute);
+app.use("/", contactRoute);
 
 app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}`)
