@@ -105,7 +105,7 @@ const ContactPage = () => {
 
           {/* Success Message */}
           {successMessage && (
-            <div className="mt-6 text-center text-lg text-green-500 dark:text-green-400">
+            <div className="mt-6 text-center text-lg text-green-900 dark:text-green-400">
               {successMessage}
             </div>
           )}
