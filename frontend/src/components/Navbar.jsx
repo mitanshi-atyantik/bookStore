@@ -37,12 +37,14 @@ const Navbar = () => {
         }
     }, [])
 
+    
+
     const navItems = (
         <>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/course">Courses</Link></li>
             <li><Link to="/contact">Contact</Link></li>
-            <li><Link>About</Link></li>
+            <li><Link to="/about">About</Link></li>
         </>
     )
     return (

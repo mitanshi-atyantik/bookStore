@@ -2,6 +2,7 @@ import React from "react";
 import { useAuth } from "../context/AuthProvider";
 import toast from "react-hot-toast";
 import profile from './images/download.png'
+import Cookies from 'js-cookie';    
 
 function Logout() {
     const [authUser, setAuthUser] = useAuth();
@@ -12,6 +13,7 @@ function Logout() {
                 user: null,
             });
             localStorage.removeItem("Users");
+            Cookies.remove('user');
             toast.success("Logout successfully");
 
             setTimeout(() => {
@@ -22,6 +24,8 @@ function Logout() {
             setTimeout(() => { }, 2000);
         }
     };
+
+    console.log(authUser.fullname)
     return (
         <div className="flex gap-4 items-center">
             {/* <div className="user-profile flex gap-2 items-center">

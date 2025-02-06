@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { motion } from 'framer-motion';
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -47,10 +48,21 @@ const ContactPage = () => {
   return (
     <div className="min-h-screen pt-20 dark:bg-slate-900 bg-gray-100">
       <div className="max-w-4xl mx-auto py-12 px-4">
-        <h2 className="text-3xl font-extrabold text-center text-gray-800 dark:text-white mb-8">
+        <motion.h2
+          className="text-3xl font-extrabold text-center text-gray-800 dark:text-white mb-8"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+        >
           Contact Us
-        </h2>
-        <div className="bg-white dark:bg-slate-800 p-8 rounded-lg shadow-lg">
+        </motion.h2>
+
+        <motion.div
+          className="bg-white dark:bg-slate-800 p-8 rounded-lg shadow-lg"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="form-control">
               <label className="label text-gray-700 dark:text-white">
@@ -105,11 +117,16 @@ const ContactPage = () => {
 
           {/* Success Message */}
           {successMessage && (
-            <div className="mt-6 text-center text-lg text-green-900 dark:text-green-400">
+            <motion.div
+              className="mt-6 text-center text-lg text-green-900 dark:text-green-400"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.5 }}
+            >
               {successMessage}
-            </div>
+            </motion.div>
           )}
-        </div>
+        </motion.div>
       </div>
     </div>
   );
