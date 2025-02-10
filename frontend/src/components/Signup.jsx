@@ -31,7 +31,7 @@ function Signup({ courses }) {
         if (res.data) {
           toast.success("Signup Successfully");
           navigate(from, { replace: true });
-          
+
         }
         localStorage.setItem("Users", JSON.stringify(res.data.user));
         reset();
@@ -43,101 +43,124 @@ function Signup({ courses }) {
         }
       });
   };
+
+
+  const handleGoogleLogin = () => {
+    window.location.href = "http://localhost:4001/auth/google";
+  };
   return (
     <>
       <div className="h-fit py-32">
-      {courses && <div className="text-center text-xl font-bold uppercase dark:bg-slate-900">
-        Please Sign in First to see More courses!!
-      </div>}
-      <div className="flex flex-col items-center">
-        <div className="lg:w-[600px] w-[400px] lg:ml-20 ml-4">
-          <div className="modal-box  dark:bg-slate-600 dark:text-white border border-black">
-            <form
-              onSubmit={handleSubmit(onSubmit)}
-              method="dialog">
-              {/* if there is a button in form, it will close the modal */}
-              <Link
-                to="/"
-                className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
-              >
-                ✕
-              </Link>
+        {courses && <div className="text-center text-xl font-bold uppercase dark:bg-slate-900">
+          Please Sign in First to see More courses!!
+        </div>}
+        <div className="flex flex-col items-center">
+          <div className="lg:w-[600px] w-[400px] lg:ml-20 ml-4">
+            <div className="modal-box  dark:bg-slate-600 dark:text-white border border-black">
+              <form
+                onSubmit={handleSubmit(onSubmit)}
+                method="dialog">
+                {/* if there is a button in form, it will close the modal */}
+                <Link
+                  to="/"
+                  className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+                >
+                  ✕
+                </Link>
 
-              <h3 className="font-bold text-lg">Signup</h3>
-              <div className="mt-4 space-y-2">
-                <span>Name</span>
-                <br />
-                <input
-                  type="text"
-                  placeholder="Enter your fullname"
-                  className="w-80 px-3 py-1 border rounded-md outline-none dark:text-black"
-                  {...register("fullname", { required: true })}
-                />
-                <br />
-                {errors.fullname && (
-                  <span className="text-sm text-red-500">
-                    This field is required
-                  </span>
-                )}
-              </div>
-              {/* Email */}
-              <div className="mt-4 space-y-2 ">
-                <span>Email</span>
-                <br />
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  className="w-80 px-3 py-1 border rounded-md outline-none  dark:text-black"
-                  {...register("email", { required: true })}
-                />
-                <br />
-                {errors.email && (
-                  <span className="text-sm text-red-500">
-                    This field is required
-                  </span>
-                )}
-              </div>
-              {/* Password */}
-              <div className="mt-4 space-y-2">
-                <span>Password</span>
-                <br />
-                <input
-                  type="text"
-                  placeholder="Enter your password"
-                  className="w-80 px-3 py-1 border rounded-md outline-none dark:text-black"
-                  {...register("password", { required: true })}
-                />
-                <br />
-                {errors.password && (
-                  <span className="text-sm text-red-500">
-                    This field is required
-                  </span>
-                )}
-              </div>
-              {/* Button */}
-              <div className="flex justify-around mt-4">
-                <button className="bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200">
-                  Signup
+                <h3 className="font-bold text-lg">Signup</h3>
+                <div className="mt-4 space-y-2">
+                  <span>Name</span>
+                  <br />
+                  <input
+                    type="text"
+                    placeholder="Enter your fullname"
+                    className="w-80 px-3 py-1 border rounded-md outline-none dark:text-black"
+                    {...register("fullname", { required: true })}
+                  />
+                  <br />
+                  {errors.fullname && (
+                    <span className="text-sm text-red-500">
+                      This field is required
+                    </span>
+                  )}
+                </div>
+                {/* Email */}
+                <div className="mt-4 space-y-2 ">
+                  <span>Email</span>
+                  <br />
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    className="w-80 px-3 py-1 border rounded-md outline-none  dark:text-black"
+                    {...register("email", { required: true })}
+                  />
+                  <br />
+                  {errors.email && (
+                    <span className="text-sm text-red-500">
+                      This field is required
+                    </span>
+                  )}
+                </div>
+                {/* Password */}
+                <div className="mt-4 space-y-2">
+                  <span>Password</span>
+                  <br />
+                  <input
+                    type="text"
+                    placeholder="Enter your password"
+                    className="w-80 px-3 py-1 border rounded-md outline-none dark:text-black"
+                    {...register("password", { required: true })}
+                  />
+                  <br />
+                  {errors.password && (
+                    <span className="text-sm text-red-500">
+                      This field is required
+                    </span>
+                  )}
+                </div>
+                {/* Button */}
+                <div className="flex justify-around mt-4">
+                  <button className="bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200">
+                    Signup
+                  </button>
+                  <p className="text-xl">
+                    Have account?{" "}
+                    <button
+                      className="underline text-blue-500 cursor-pointer"
+                      onClick={() =>
+                        document.getElementById("my_modal_3").showModal()
+
+                      }
+                    >
+                      Login
+                    </button>{" "}
+                    <Login />
+                  </p>
+                </div>
+
+              </form>
+
+              <div className="flex justify-center mt-4">
+                <button
+                  onClick={handleGoogleLogin}
+                  className=" flex items-center justify-center w-full max-w-xs px-4 py-2 text-gray-700 bg-white border border-gray-300 rounded-lg shadow-sm hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-300"
+                >
+                  <img
+                    src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
+                    alt="Google Logo"
+                    className="w-5 h-5 mr-2"
+                  />
+                  Login with Google
                 </button>
-                <p className="text-xl">
-                  Have account?{" "}
-                  <button
-                    className="underline text-blue-500 cursor-pointer"
-                    onClick={() =>
-                      document.getElementById("my_modal_3").showModal()
-
-                    }
-                  >
-                    Login
-                  </button>{" "}
-                  <Login />
-                </p>
               </div>
-            </form>
+
+              {/* Your existing login form */}
+            </div>
           </div>
         </div>
       </div>
-      </div>
+
     </>
   );
 }

@@ -33,17 +33,27 @@ function Login() {
         if (err.response) {
           console.log(err);
           toast.error("Error: " + err.response.data.message);
-          setTimeout(() => {}, 2000);
+          setTimeout(() => { }, 2000);
         }
       });
+  };
+
+  const handleGoogleLogin = async () => {
+    try {
+      window.location.href = "http://localhost:4001/auth/google";
+    } catch (error) {
+      toast.error("Error logging in with Google");
+      console.error("Google Login Error", error);
+    }
   };
   return (
     <div>
       <dialog id="my_modal_3" className="modal bg-transparent">
-        <div className="modal-box dark:bg-gray-800 dark:text-white dark:border dark:border-white">
-          <form 
-          onSubmit={handleSubmit(onSubmit)} 
-          method="dialog">
+        <div className="modal-box dark:bg-gray-800 dark:text-white dark:border dark:border-white  flex flex-col items-center">
+          <form
+            onSubmit={handleSubmit(onSubmit)}
+            method="dialog"
+            className="w-full">
             {/* if there is a button in form, it will close the modal */}
             <Link
               to="/"
@@ -53,15 +63,15 @@ function Login() {
               ✕
             </Link>
 
-            <h3 className="font-bold text-lg">Login</h3>
+            <h3 className="font-bold text-3xl text-center">Login</h3>
             {/* Email */}
-            <div className="mt-4 space-y-2">
+            <div className="mt-4 space-y-2 w-full">
               <span>Email</span>
               <br />
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="w-80 px-3 py-1 border rounded-md outline-none dark:text-black"
+                className="w-full px-3 py-1 border rounded-md outline-none dark:text-black"
                 {...register("email", { required: true })}
               />
               <br />
@@ -72,13 +82,13 @@ function Login() {
               )}
             </div>
             {/* password */}
-            <div className="mt-4 space-y-2">
+            <div className="mt-4 space-y-2 w-full">
               <span>Password</span>
               <br />
               <input
                 type="password"
                 placeholder="Enter your password "
-                className="w-80 px-3 py-1 border rounded-md outline-none dark:text-black"
+                className="w-full px-3 py-1 border rounded-md outline-none dark:text-black"
                 {...register("password", { required: true })}
               />
               <br />
@@ -90,11 +100,11 @@ function Login() {
             </div>
 
             {/* Button */}
-            <div className="flex justify-around mt-6">
-              <button className="bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200">
+            <div className="flex flex-col items-center mt-6">
+              <button className="bg-pink-500 text-white w-full rounded-md px-3 py-1 hover:bg-pink-700 duration-200">
                 Login
               </button>
-              <p>
+              <p className="my-2">
                 Not registered?{" "}
                 <Link
                   to="/signup"
@@ -104,8 +114,20 @@ function Login() {
                   Signup
                 </Link>{" "}
               </p>
+              <p className="my-2">Or</p>
             </div>
           </form>
+          <button
+            onClick={handleGoogleLogin}
+            className=" flex items-center justify-center w-full max-w-xs px-4 py-2 text-gray-700 bg-white border border-gray-300 rounded-lg shadow-sm hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-300"
+          >
+            <img
+              src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
+              alt="Google Logo"
+              className="w-5 h-5 mr-2"
+            />
+            Login with Google
+          </button>
         </div>
       </dialog>
     </div>
