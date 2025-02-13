@@ -5,10 +5,10 @@ export default function About() {
         <div className="mt-10 bg-white dark:bg-slate-900 text-gray-900 dark:text-gray-100 min-h-screen">
             {/* Hero Section */}
             <div
-                className="relative w-full h-[50vh] bg-contain bg-center"
-                style={{ backgroundImage: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkI_Gsz7faOnOxwSGvh-6zE_ufAh62x_ndoaaxhKgYeQ-sKB6YDJKcXLDGWL7wuiRqdGI&usqp=CAU')" }}
+                className="relative w-full h-[50vh] bg-contain bg-center bg-gray-100  dark:bg-slate-600"
+               
             >
-                <h1 className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-3xl font-extrabold text-gray-800 z-10 text-center">
+                <h1 className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-3xl font-extrabold text-gray-800 dark:text-white z-10 text-center">
                     Welcome to Our Bookstore
                 </h1>
             </div>
@@ -44,7 +44,7 @@ export default function About() {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
                     >
-                        <h3 className="text-2xl font-semibold text-gray-800">Why Choose Us?</h3>
+                        <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-200">Why Choose Us?</h3>
                         <p className="text-gray-700 dark:text-gray-300 mt-4">
                             We are more than just a bookstore. Our space is designed for book lovers
                             to explore, read, and connect with like-minded people. Join our community events,
